@@ -17,8 +17,12 @@ class _ChatHomePageState extends State<ChatHomePage> {
       home: Column(
         children: [
           Container(
+            height: 80,
             child: Center(
-              child: Text("Chat Home Page working - very fine  - latest update"),
+              child: Text("Chat Home Page working - very fine  - latest update",
+              style: TextStyle(
+                fontSize: 10,
+              ),),
             ),
           ),
 
