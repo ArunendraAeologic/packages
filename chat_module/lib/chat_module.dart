@@ -22,7 +22,7 @@ class _ChatHomePageState extends State<ChatHomePage> {
             ),
           ),
 
-          FlatButton(onPressed: (){
+          TextButton(onPressed: (){
             CommonUtil.showToast(message: "hello I am fine",bgColor:Colors.amber,fontSize: 20,textColor: Colors.red);
           }, child: Text("Pressed")),
         ],
