@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:util/util.dart';
 
 class ChatHomePage extends StatefulWidget {
-  const ChatHomePage({Key key}) : super(key: key);
 
   @override
   _ChatHomePageState createState() => _ChatHomePageState();
@@ -27,7 +26,7 @@ class _ChatHomePageState extends State<ChatHomePage> {
           ),
 
           TextButton(onPressed: (){
-            CommonUtil.showToast(message: "hello I am fine",bgColor:Colors.amber,fontSize: 20,textColor: Colors.red);
+            showToast(message: "hello I am fine",bgColor:Colors.amber,fontSize: 20,textColor: Colors.red);
           }, child: Text("Pressed")),
         ],
       ),
